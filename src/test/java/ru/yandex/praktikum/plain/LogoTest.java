@@ -22,7 +22,7 @@ public class LogoTest {
     }
 
     @Test
-    public void ScooterHyperlinkLeadsToTheScooterHomePage() {
+    public void scooterHyperlinkLeadsToTheScooterHomePage() {
         MainPage mainPage = new MainPage(webDriver);
         mainPage.clickHeaderCreateButton();
 
@@ -34,7 +34,7 @@ public class LogoTest {
     }
 
     @Test
-    public void YandexHyperlinkLeadsToTheYandexHomePage() {
+    public void yandexHyperlinkLeadsToTheYandexHomePage() {
         MainPage mainPage = new MainPage(webDriver);
         mainPage.clickHyperlinkedYandex();
         boolean homePageYandexIsDisplayed = mainPage.homePageYandexOpen();
